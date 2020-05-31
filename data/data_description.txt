@@ -1,0 +1,45 @@
+review_title: The Title for the customer review.
+	All values unique txt
+
+overall_review: The whole customer review details.
+	All values unique txt
+	
+pros: The customer opinion about the good things in this product
+	All values unique txt
+
+cons: The customer opinion about the bad things in this product.
+	All values unique txt
+
+	Note: none values here means the product is good and there is no cons
+
+ownership_pariod: How long the customer owned this product
+	
+       month	1 week to 1 month	
+       year	1 month to 1 year
+       week	1 day to 1 week
+       years	more than 1 year
+       day	less than 1 day
+       	
+date: When the review written
+
+       All values unique datetime
+		
+rating_stars: The product rating from 1 to 5
+
+       1	very bad
+       2	bad
+       3	neutral
+       4	good
+       5	very good
+
+year: In which year the review written
+
+       All values between year 2014 and 2019
+		
+month: In which month the review written
+		
+       All values between month 1 and 12	
+	
+day: In which day the review written
+
+       All values between day 1 and 31
